@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Module_19</string>
+    <string name="app_name">FilmsSearch</string>
     <string name="disclaimer">Изображения взяты с https://www.movieposters.com/</string>
     <string name="disclaimer2">Изображения взяты с</string>
     <string name="disclaimer3">https://www.movieposters.com/</string>
@@ -8,9 +8,10 @@
     <string name="btn_watch_later">Посмотреть позже</string>
     <string name="btn_selections">Подборки</string>
     <string name="btn_setting">Настройки</string>
-    <string name="todo">todo</string>
-    <string name="menu_settings_title" />
-    <string name="menu_selections_title" />
-    <string name="menu_watch_later_title" />
-    <string name="menu_favorites_title" />
+    <string name="todo">Search it!</string>
+    <string name="menu_settings_title">Поиск фильмов</string>
+    <string name="menu_selections_title">Подборки</string>
+    <string name="menu_watch_later_title">Посмотреть позже</string>
+    <string name="menu_favorites_title">Избранное</string>
+    />
 </resources>

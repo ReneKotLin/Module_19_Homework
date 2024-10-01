@@ -2,7 +2,6 @@ package com.renata.myapplication
 
 import android.os.Bundle
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.renata.myapplication.databinding.ActivityMainBinding
 
@@ -13,13 +12,13 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+//        enableEdgeToEdge()
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
 
         setContentView(view)
 
-        initButtons()
+//        initButtons()
 
         initNavigation()
 
@@ -49,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 R.id.watch_later -> {
-                    Toast.makeText(this, "Посмотреть похже", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Посмотреть позже", Toast.LENGTH_SHORT).show()
                     true
                 }
 
@@ -65,23 +64,23 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    private fun initButtons() {
-        binding.buttonMenu?.setOnClickListener {
-            Toast.makeText(this, "Меню", Toast.LENGTH_SHORT).show()
-        }
-        binding.buttonFav?.setOnClickListener {
-            Toast.makeText(this, "Избранное", Toast.LENGTH_SHORT).show()
-        }
-        binding.buttonWatchLater?.setOnClickListener {
-            Toast.makeText(this, "Посмотреть позже", Toast.LENGTH_SHORT).show()
-        }
-        binding.buttonSelections?.setOnClickListener {
-            Toast.makeText(this, "Подборки", Toast.LENGTH_SHORT).show()
-        }
-        binding.buttonSetting?.setOnClickListener {
-            Toast.makeText(this, "Настройки", Toast.LENGTH_SHORT).show()
-        }
-    }
+//    private fun initButtons() {
+//        binding.buttonMenu?.setOnClickListener {
+//            Toast.makeText(this, "Меню", Toast.LENGTH_SHORT).show()
+//        }
+//        binding.buttonFav?.setOnClickListener {
+//            Toast.makeText(this, "Избранное", Toast.LENGTH_SHORT).show()
+//        }
+//        binding.buttonWatchLater?.setOnClickListener {
+//            Toast.makeText(this, "Посмотреть позже", Toast.LENGTH_SHORT).show()
+//        }
+//        binding.buttonSelections?.setOnClickListener {
+//            Toast.makeText(this, "Подборки", Toast.LENGTH_SHORT).show()
+//        }
+//        binding.buttonSetting?.setOnClickListener {
+//            Toast.makeText(this, "Настройки", Toast.LENGTH_SHORT).show()
+//        }
+//    }
 
 
 }

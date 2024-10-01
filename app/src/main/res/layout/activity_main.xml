@@ -21,7 +21,7 @@
             android:layout_height="?attr/actionBarSize"
             app:menu="@menu/top_app_bar"
             app:navigationIcon="@drawable/round_menu_24"
-            app:title="@string/menu_selections_title" />
+            app:title="@string/todo" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
